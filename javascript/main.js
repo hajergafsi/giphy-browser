@@ -17,7 +17,7 @@ document.querySelector('.js-userinput').addEventListener('keyup', function (e) {
 /*2. do the data stuff with API */
 function research(key) {
   var url =
-    'http://api.giphy.com/v1/gifs/search?q=' +
+    'https://api.giphy.com/v1/gifs/search?q=' +
     key +
     '&api_key=YcpjpUU7ncC5Qx5NkFAhZ2MKBpIb4KlA';
   var GiphyAJAXCall = new XMLHttpRequest();
